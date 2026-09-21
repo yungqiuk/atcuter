@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATCuter</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --paper: #faf8f4; --surface: #fffffd; --ink: #1c1a17; --muted: #6b6659;
+    --accent: #2e5478; --rule: #e2ddd2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #121214; --surface: #1e1e21; --ink: #f1eee7; --muted: #9b968c;
+      --accent: #8db8e2; --rule: #2c2c31;
+    }
+  }
+  body { margin: 0; background: var(--paper); color: var(--ink);
+         font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-size: 2rem; margin: 0 0 8px; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-size: 1.35rem; margin: 40px 0 10px; }
+  h3 { font-size: 1.05rem; margin: 26px 0 6px; }
+  p, li { color: var(--ink); }
+  a { color: var(--accent); }
+  nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 18px; }
+  nav a { padding: 5px 13px; border: 1px solid var(--rule); border-radius: 999px;
+          text-decoration: none; font-size: 0.88rem; color: var(--muted); background: var(--surface); }
+  .updated { color: var(--muted); font-size: 0.9rem; }
+  .pages { font-size: 0.9rem; color: var(--muted); margin: 0 0 34px; }
+  section { border-top: 1px solid var(--rule); padding-top: 28px; margin-top: 44px; }
+  section:first-of-type { border-top: 0; }
+  ul { padding-left: 20px; }
+</style>
+</head>
+<body>
+<main>
+<h1>ATCuter</h1>
+<nav>
+  <a href="#en">English</a>
+  <a href="#ru">Русский</a>
+  <a href="#uk">Українська</a>
+  <a href="#es">Español</a>
+  <a href="#de">Deutsch</a>
+  <a href="#fr">Français</a>
+  <a href="#pt-br">Português</a>
+  <a href="#it">Italiano</a>
+  <a href="#pl">Polski</a>
+  <a href="#tr">Türkçe</a>
+  <a href="#nl">Nederlands</a>
+  <a href="#ja">日本語</a>
+  <a href="#zh-hans">简体中文</a>
+  <a href="#ko">한국어</a>
+</nav>
+<p class="pages"><a href="index.html">ATCuter</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a> · <a href="terms.html">Terms</a></p>
+<section id="en" lang="en">
+<h2>Edit your audio as text</h2>
+<p>Editing a recording usually means staring at a waveform and guessing where a word ends. ATCuter turns that around: it writes down what you said and lets you edit the text. Delete a word, a phrase or a pause — the sound disappears with it.</p>
+<h3>How it works</h3>
+<ul>
+<li>Record your voice, or import a file you already have (M4A, MP3, WAV, CAF, AIFF, or the audio track of a video).</li>
+<li>ATCuter transcribes the recording and ties every word to its exact moment in the sound.</li>
+<li>Tap a word to jump there. Long-press to delete it. Select a range to cut a whole phrase.</li>
+<li>Removed words stay on screen, crossed out, so you can bring any of them back. Undo goes 200 steps deep.</li>
+<li>Clean up in one move: remove long pauses, or find the “um”s and “uh”s and confirm which ones to drop.</li>
+<li>Export as M4A or WAV and share it anywhere.</li>
+</ul>
+<h3>Nothing leaves your iPhone</h3>
+<p>Transcription and editing happen on the device. Your voice is never uploaded — not to us, not to anyone. The app has no accounts, no analytics and no ads.</p>
+<h3>Careful with your recording</h3>
+<p>The original file is never modified. Every cut is a decision you can undo, and the edited version is assembled only when you press play or export. Cuts land on the quietest point next to the word, with short fades, so joins don't click.</p>
+<h3>Languages</h3>
+<p>Recognition works in every language your iPhone can transcribe on device — more than fifty, from English and Spanish to Japanese and Korean. ATCuter picks the language from the ones set on your phone; you can change it in Settings or for a single recording.</p>
+<p>Requires iOS 26. Recognition models are downloaded once and then work offline.</p>
+</section>
+<section id="ru" lang="ru">
+<h2>Правьте звук как текст</h2>
+<p>Обычно монтаж записи — это разглядывание звуковой волны и попытки угадать, где кончается слово. ATCuter переворачивает задачу: он записывает то, что вы сказали, и даёт править текст. Удалите слово, фразу или паузу — звук уйдёт вместе с ними.</p>
+<h3>Как это работает</h3>
+<ul>
+<li>Запишите голос или импортируйте готовый файл (M4A, MP3, WAV, CAF, AIFF или звук из видео).</li>
+<li>ATCuter расшифрует запись и привяжет каждое слово к его месту в звуке.</li>
+<li>Тап по слову — перемотка к нему. Долгое нажатие — удалить. Выделите диапазон — вырежете целую фразу.</li>
+<li>Удалённые слова остаются на экране зачёркнутыми, любое можно вернуть. Отмена — на 200 шагов назад.</li>
+<li>Чистка в одно движение: убрать длинные паузы или найти «э-э» и «ммм» и подтвердить, что именно убрать.</li>
+<li>Экспорт в M4A или WAV — и делитесь куда угодно.</li>
+</ul>
+<h3>Ничего не покидает ваш iPhone</h3>
+<p>Расшифровка и монтаж идут на устройстве. Ваш голос никуда не отправляется — ни нам, ни кому-либо ещё. Никаких аккаунтов, аналитики и рекламы.</p>
+<h3>Бережно к записи</h3>
+<p>Исходный файл никогда не меняется. Любая правка обратима, а итоговый звук собирается только при воспроизведении и экспорте. Разрезы ставятся в самую тихую точку рядом со словом, с короткими затуханиями, поэтому на стыках нет щелчков.</p>
+<h3>Языки</h3>
+<p>Распознавание работает на всех языках, которые ваш iPhone умеет расшифровывать на устройстве, — их больше пятидесяти, от английского и испанского до японского и корейского. Язык берётся из языков телефона; сменить его можно в настройках или для отдельной записи.</p>
+<p>Требуется iOS 26. Модели распознавания скачиваются один раз и дальше работают офлайн.</p>
+</section>
+<section id="uk" lang="uk">
+<h2>Редагуйте звук як текст</h2>
+<p>Зазвичай монтаж запису — це розглядання звукової хвилі й спроби вгадати, де закінчується слово. ATCuter перевертає задачу: він записує те, що ви сказали, і дає редагувати текст. Видаліть слово, фразу чи паузу — звук зникне разом із ними.</p>
+<h3>Як це працює</h3>
+<ul>
+<li>Запишіть голос або імпортуйте готовий файл (M4A, MP3, WAV, CAF, AIFF або звук із відео).</li>
+<li>ATCuter розшифрує запис і прив'яже кожне слово до його місця у звуці.</li>
+<li>Дотик до слова — перемотка до нього. Довге натискання — видалити. Виділіть діапазон — виріжете цілу фразу.</li>
+<li>Видалені слова лишаються на екрані закресленими, будь-яке можна повернути. Скасування — на 200 кроків назад.</li>
+<li>Чистка одним рухом: прибрати довгі паузи або знайти «е-е» та «ммм» і підтвердити, що саме прибрати.</li>
+<li>Експорт у M4A або WAV — і діліться куди завгодно.</li>
+</ul>
+<h3>Нічого не залишає ваш iPhone</h3>
+<p>Розшифровка й монтаж відбуваються на пристрої. Ваш голос нікуди не надсилається — ні нам, ні комусь іншому. Жодних акаунтів, аналітики та реклами.</p>
+<h3>Дбайливо до запису</h3>
+<p>Початковий файл ніколи не змінюється. Будь-яка правка оборотна, а підсумковий звук збирається лише під час відтворення та експорту. Розрізи ставляться в найтихішу точку поряд зі словом, із короткими затуханнями, тому на стиках немає клацань.</p>
+<h3>Мови</h3>
+<p>Розпізнавання працює всіма мовами, які ваш iPhone уміє розшифровувати на пристрої, — їх понад п'ятдесят, від англійської та іспанської до японської й корейської. Мова береться з мов телефона; змінити її можна в налаштуваннях або для окремого запису.</p>
+<p>Потрібна iOS 26. Моделі розпізнавання завантажуються один раз і далі працюють офлайн.</p>
+</section>
+<section id="es" lang="es">
+<h2>Edita el audio como texto</h2>
+<p>Editar una grabación suele ser mirar una onda y adivinar dónde acaba una palabra. ATCuter le da la vuelta: escribe lo que dijiste y te deja editar el texto. Borra una palabra, una frase o una pausa, y el sonido desaparece con ella.</p>
+<h3>Cómo funciona</h3>
+<ul>
+<li>Graba tu voz o importa un archivo que ya tengas (M4A, MP3, WAV, CAF, AIFF o el audio de un vídeo).</li>
+<li>ATCuter transcribe la grabación y ata cada palabra a su momento exacto en el sonido.</li>
+<li>Toca una palabra para saltar a ella; mantenla pulsada para borrarla; selecciona un rango para cortar una frase entera.</li>
+<li>Las palabras borradas siguen en pantalla, tachadas: puedes recuperar cualquiera. Deshacer llega a 200 pasos.</li>
+<li>Limpieza en un gesto: quita las pausas largas o busca las muletillas y confirma cuáles se van.</li>
+<li>Exporta en M4A o WAV y compártelo donde quieras.</li>
+</ul>
+<h3>Nada sale de tu iPhone</h3>
+<p>La transcripción y la edición ocurren en el dispositivo. Tu voz no se envía a ninguna parte, ni a nosotros ni a nadie. Sin cuentas, sin analíticas, sin anuncios.</p>
+<h3>Con cuidado de tu grabación</h3>
+<p>El archivo original nunca se modifica. Cada corte es una decisión reversible, y la versión editada se monta solo al reproducir o exportar. Los cortes caen en el punto más silencioso junto a la palabra, con fundidos cortos, para que las uniones no suenen a clic.</p>
+<h3>Idiomas</h3>
+<p>El reconocimiento funciona en todos los idiomas que tu iPhone sabe transcribir en el dispositivo — más de cincuenta, del inglés y el español al japonés y el coreano. ATCuter toma el idioma de los que tienes en el teléfono; puedes cambiarlo en los ajustes o para una grabación concreta.</p>
+<p>Requiere iOS 26. Los modelos de reconocimiento se descargan una vez y luego funcionan sin conexión.</p>
+</section>
+<section id="de" lang="de">
+<h2>Ton als Text bearbeiten</h2>
+<p>Eine Aufnahme zu schneiden heißt sonst: auf eine Wellenform starren und raten, wo ein Wort endet. ATCuter dreht das um — es schreibt auf, was du gesagt hast, und du bearbeitest den Text. Lösche ein Wort, einen Satz, eine Pause, und der Ton verschwindet mit.</p>
+<h3>So funktioniert es</h3>
+<ul>
+<li>Nimm deine Stimme auf oder importiere eine Datei (M4A, MP3, WAV, CAF, AIFF oder die Tonspur eines Videos).</li>
+<li>ATCuter transkribiert die Aufnahme und bindet jedes Wort an seine genaue Stelle im Ton.</li>
+<li>Tippe ein Wort an, um dorthin zu springen; halte es gedrückt, um es zu löschen; wähle einen Bereich, um einen ganzen Satz zu schneiden.</li>
+<li>Gelöschte Wörter bleiben durchgestrichen sichtbar und lassen sich zurückholen. Widerrufen geht 200 Schritte weit.</li>
+<li>Aufräumen in einem Zug: lange Pausen entfernen oder Füllwörter suchen und bestätigen, welche gehen.</li>
+<li>Exportiere als M4A oder WAV und teile es überall.</li>
+</ul>
+<h3>Nichts verlässt dein iPhone</h3>
+<p>Transkription und Bearbeitung laufen auf dem Gerät. Deine Stimme wird nirgendwohin geschickt — weder zu uns noch zu sonst jemandem. Keine Konten, keine Analytik, keine Werbung.</p>
+<h3>Sorgsam mit der Aufnahme</h3>
+<p>Die Originaldatei bleibt unangetastet. Jeder Schnitt ist widerrufbar, und die bearbeitete Fassung entsteht erst beim Abspielen oder Exportieren. Schnitte landen an der leisesten Stelle neben dem Wort, mit kurzen Blenden, damit es an den Übergängen nicht knackst.</p>
+<h3>Sprachen</h3>
+<p>Die Erkennung arbeitet in jeder Sprache, die dein iPhone auf dem Gerät transkribieren kann — über fünfzig, von Englisch und Spanisch bis Japanisch und Koreanisch. ATCuter nimmt die Sprache aus den auf dem Telefon eingestellten; ändern kannst du sie in den Einstellungen oder für eine einzelne Aufnahme.</p>
+<p>Erfordert iOS 26. Die Erkennungsmodelle werden einmal geladen und arbeiten danach offline.</p>
+</section>
+<section id="fr" lang="fr">
+<h2>Modifiez l'audio comme un texte</h2>
+<p>Monter un enregistrement, c'est d'ordinaire fixer une forme d'onde et deviner où finit un mot. ATCuter renverse la chose : il écrit ce que vous avez dit et vous laisse modifier le texte. Supprimez un mot, une phrase ou un silence — le son part avec.</p>
+<h3>Comment ça marche</h3>
+<ul>
+<li>Enregistrez votre voix ou importez un fichier existant (M4A, MP3, WAV, CAF, AIFF ou la piste audio d'une vidéo).</li>
+<li>ATCuter transcrit l'enregistrement et rattache chaque mot à son instant exact dans le son.</li>
+<li>Touchez un mot pour y aller ; appui long pour le supprimer ; sélectionnez une plage pour couper une phrase entière.</li>
+<li>Les mots supprimés restent à l'écran, barrés : vous pouvez tous les récupérer. L'annulation remonte 200 étapes.</li>
+<li>Nettoyage en un geste : retirez les longs silences ou cherchez les tics de langage et confirmez ceux qui partent.</li>
+<li>Exportez en M4A ou WAV et partagez où vous voulez.</li>
+</ul>
+<h3>Rien ne quitte votre iPhone</h3>
+<p>La transcription et le montage se font sur l'appareil. Votre voix n'est envoyée nulle part — ni à nous, ni à personne. Pas de comptes, pas de statistiques, pas de publicité.</p>
+<h3>Avec soin pour votre enregistrement</h3>
+<p>Le fichier d'origine n'est jamais modifié. Chaque coupe est réversible, et la version montée n'est assemblée qu'à la lecture ou à l'export. Les coupes tombent au point le plus silencieux près du mot, avec de courts fondus, pour que les raccords ne claquent pas.</p>
+<h3>Langues</h3>
+<p>La reconnaissance fonctionne dans toutes les langues que votre iPhone sait transcrire sur l'appareil — plus de cinquante, de l'anglais et l'espagnol au japonais et au coréen. ATCuter prend la langue parmi celles réglées sur le téléphone ; vous pouvez la changer dans les réglages ou pour un seul enregistrement.</p>
+<p>Nécessite iOS 26. Les modèles de reconnaissance se téléchargent une fois, puis fonctionnent hors ligne.</p>
+</section>
+<section id="pt-br" lang="pt-BR">
+<h2>Edite o áudio como texto</h2>
+<p>Editar uma gravação costuma ser encarar uma onda sonora e adivinhar onde a palavra termina. O ATCuter inverte isso: ele escreve o que você disse e deixa você editar o texto. Apague uma palavra, uma frase ou uma pausa — o som vai junto.</p>
+<h3>Como funciona</h3>
+<ul>
+<li>Grave sua voz ou importe um arquivo que já tenha (M4A, MP3, WAV, CAF, AIFF ou o áudio de um vídeo).</li>
+<li>O ATCuter transcreve a gravação e amarra cada palavra ao seu momento exato no som.</li>
+<li>Toque numa palavra para ir até ela; segure para apagá-la; selecione um trecho para cortar uma frase inteira.</li>
+<li>As palavras apagadas continuam na tela, riscadas: dá para trazer qualquer uma de volta. Desfazer vai 200 passos.</li>
+<li>Limpeza num gesto: tire as pausas longas ou procure os vícios de linguagem e confirme quais saem.</li>
+<li>Exporte em M4A ou WAV e compartilhe onde quiser.</li>
+</ul>
+<h3>Nada sai do seu iPhone</h3>
+<p>A transcrição e a edição acontecem no aparelho. Sua voz não é enviada a lugar nenhum — nem para nós, nem para ninguém. Sem contas, sem analytics, sem anúncios.</p>
+<h3>Cuidado com a sua gravação</h3>
+<p>O arquivo original nunca é modificado. Todo corte pode ser desfeito, e a versão editada só é montada ao reproduzir ou exportar. Os cortes caem no ponto mais silencioso ao lado da palavra, com fades curtos, para que as emendas não estalem.</p>
+<h3>Idiomas</h3>
+<p>O reconhecimento funciona em todos os idiomas que o seu iPhone sabe transcrever no próprio aparelho — mais de cinquenta, do inglês e do espanhol ao japonês e ao coreano. O ATCuter pega o idioma entre os configurados no telefone; dá para mudar nos ajustes ou numa gravação específica.</p>
+<p>Requer iOS 26. Os modelos de reconhecimento são baixados uma vez e depois funcionam sem internet.</p>
+</section>
+<section id="it" lang="it">
+<h2>Modifica l'audio come un testo</h2>
+<p>Montare una registrazione di solito significa fissare una forma d'onda e indovinare dove finisce una parola. ATCuter ribalta la cosa: scrive quello che hai detto e ti lascia modificare il testo. Cancella una parola, una frase o una pausa — il suono se ne va con lei.</p>
+<h3>Come funziona</h3>
+<ul>
+<li>Registra la tua voce o importa un file che hai già (M4A, MP3, WAV, CAF, AIFF o l'audio di un video).</li>
+<li>ATCuter trascrive la registrazione e lega ogni parola al suo istante esatto nel suono.</li>
+<li>Tocca una parola per saltarci; tieni premuto per cancellarla; seleziona un intervallo per tagliare un'intera frase.</li>
+<li>Le parole cancellate restano a schermo, barrate: puoi recuperarne qualsiasi. L'annulla arriva a 200 passi.</li>
+<li>Pulizia in un gesto: togli le pause lunghe oppure cerca gli intercalari e conferma quali eliminare.</li>
+<li>Esporta in M4A o WAV e condividi dove vuoi.</li>
+</ul>
+<h3>Niente esce dal tuo iPhone</h3>
+<p>Trascrizione e montaggio avvengono sul dispositivo. La tua voce non viene inviata da nessuna parte — né a noi né ad altri. Nessun account, nessuna analitica, nessuna pubblicità.</p>
+<h3>Riguardo alla tua registrazione</h3>
+<p>Il file originale non viene mai modificato. Ogni taglio è reversibile e la versione montata si assembla solo alla riproduzione o all'esportazione. I tagli cadono nel punto più silenzioso accanto alla parola, con brevi dissolvenze, così le giunzioni non fanno clic.</p>
+<h3>Lingue</h3>
+<p>Il riconoscimento funziona in tutte le lingue che il tuo iPhone sa trascrivere sul dispositivo — più di cinquanta, dall'inglese e lo spagnolo al giapponese e al coreano. ATCuter prende la lingua fra quelle impostate sul telefono; puoi cambiarla nelle impostazioni o per una singola registrazione.</p>
+<p>Richiede iOS 26. I modelli di riconoscimento si scaricano una volta e poi funzionano offline.</p>
+</section>
+<section id="pl" lang="pl">
+<h2>Edytuj dźwięk jak tekst</h2>
+<p>Montaż nagrania zwykle polega na wpatrywaniu się w falę dźwiękową i zgadywaniu, gdzie kończy się słowo. ATCuter odwraca zadanie: zapisuje to, co powiedziałeś, i pozwala edytować tekst. Usuń słowo, zdanie albo pauzę — dźwięk zniknie razem z nimi.</p>
+<h3>Jak to działa</h3>
+<ul>
+<li>Nagraj głos albo zaimportuj gotowy plik (M4A, MP3, WAV, CAF, AIFF lub ścieżkę dźwiękową wideo).</li>
+<li>ATCuter rozpisuje nagranie i wiąże każde słowo z jego dokładnym miejscem w dźwięku.</li>
+<li>Dotknij słowa, żeby do niego przeskoczyć; przytrzymaj, żeby je usunąć; zaznacz zakres, żeby wyciąć całe zdanie.</li>
+<li>Usunięte słowa zostają na ekranie przekreślone — każde można przywrócić. Cofanie sięga 200 kroków.</li>
+<li>Sprzątanie jednym ruchem: usuń długie pauzy albo znajdź przerywniki i potwierdź, które mają zniknąć.</li>
+<li>Eksportuj do M4A lub WAV i udostępniaj gdzie chcesz.</li>
+</ul>
+<h3>Nic nie opuszcza twojego iPhone'a</h3>
+<p>Transkrypcja i montaż odbywają się na urządzeniu. Twój głos nigdzie nie jest wysyłany — ani do nas, ani do nikogo innego. Żadnych kont, żadnej analityki, żadnych reklam.</p>
+<h3>Ostrożnie z nagraniem</h3>
+<p>Plik źródłowy nigdy się nie zmienia. Każde cięcie da się cofnąć, a zmontowana wersja powstaje dopiero przy odtwarzaniu lub eksporcie. Cięcia trafiają w najcichszy punkt obok słowa, z krótkimi wyciszeniami, żeby na złączeniach nie było trzasków.</p>
+<h3>Języki</h3>
+<p>Rozpoznawanie działa we wszystkich językach, które twój iPhone potrafi rozpisać na urządzeniu — jest ich ponad pięćdziesiąt, od angielskiego i hiszpańskiego po japoński i koreański. ATCuter bierze język spośród ustawionych w telefonie; zmienisz go w ustawieniach albo dla pojedynczego nagrania.</p>
+<p>Wymaga iOS 26. Modele rozpoznawania pobierają się raz, a potem działają offline.</p>
+</section>
+<section id="tr" lang="tr">
+<h2>Sesi metin gibi düzenleyin</h2>
+<p>Bir kaydı kurgulamak genelde dalga biçimine bakıp kelimenin nerede bittiğini tahmin etmektir. ATCuter bunu tersine çevirir: söylediklerinizi yazar ve metni düzenlemenize izin verir. Bir kelimeyi, cümleyi ya da duraklamayı silin — ses de onunla birlikte gider.</p>
+<h3>Nasıl çalışır</h3>
+<ul>
+<li>Sesinizi kaydedin ya da elinizdeki dosyayı içe aktarın (M4A, MP3, WAV, CAF, AIFF veya bir videonun ses parçası).</li>
+<li>ATCuter kaydı yazıya döker ve her kelimeyi sesteki tam anına bağlar.</li>
+<li>Bir kelimeye dokunup oraya atlayın; silmek için basılı tutun; bütün bir cümleyi kesmek için aralık seçin.</li>
+<li>Silinen kelimeler ekranda üstü çizili kalır, istediğinizi geri alabilirsiniz. Geri alma 200 adım derinliğinde.</li>
+<li>Tek hamlede temizlik: uzun duraklamaları kaldırın ya da dolgu sözcüklerini bulup hangilerinin gideceğini onaylayın.</li>
+<li>M4A veya WAV olarak dışa aktarın ve istediğiniz yerde paylaşın.</li>
+</ul>
+<h3>Hiçbir şey iPhone'unuzdan çıkmaz</h3>
+<p>Yazıya dökme ve kurgu cihazda olur. Sesiniz hiçbir yere gönderilmez — ne bize ne başkasına. Hesap yok, analitik yok, reklam yok.</p>
+<h3>Kaydınıza özenle</h3>
+<p>Özgün dosya hiçbir zaman değişmez. Her kesim geri alınabilir, kurgulanmış hâl ise yalnızca çalarken veya dışa aktarırken birleştirilir. Kesimler kelimenin yanındaki en sessiz noktaya düşer, kısa kısılmalarla — böylece eklerde çıtırtı olmaz.</p>
+<h3>Diller</h3>
+<p>Tanıma, iPhone'unuzun cihaz üzerinde yazıya dökebildiği bütün dillerde çalışır — ellinin üzerinde dil, İngilizce ve İspanyolcadan Japonca ve Korece'ye. ATCuter dili telefonunuzda ayarlı olanlardan seçer; ayarlardan ya da tek bir kayıt için değiştirebilirsiniz.</p>
+<p>iOS 26 gerekir. Tanıma modelleri bir kez indirilir, sonrasında çevrimdışı çalışır.</p>
+</section>
+<section id="nl" lang="nl">
+<h2>Bewerk audio als tekst</h2>
+<p>Een opname monteren betekent meestal: naar een golfvorm staren en gokken waar een woord eindigt. ATCuter draait dat om — het schrijft op wat je zei en laat je de tekst bewerken. Verwijder een woord, een zin of een stilte, en het geluid verdwijnt mee.</p>
+<h3>Hoe het werkt</h3>
+<ul>
+<li>Neem je stem op of importeer een bestand dat je al hebt (M4A, MP3, WAV, CAF, AIFF of het geluid van een video).</li>
+<li>ATCuter transcribeert de opname en koppelt elk woord aan zijn exacte moment in het geluid.</li>
+<li>Tik op een woord om ernaartoe te springen; houd het ingedrukt om het te wissen; selecteer een bereik om een hele zin te knippen.</li>
+<li>Gewiste woorden blijven doorgestreept in beeld, je kunt er elk van terughalen. Ongedaan maken gaat 200 stappen diep.</li>
+<li>Opruimen in één beweging: haal lange stiltes weg of zoek de stopwoorden en bevestig welke verdwijnen.</li>
+<li>Exporteer als M4A of WAV en deel het waar je wilt.</li>
+</ul>
+<h3>Niets verlaat je iPhone</h3>
+<p>Transcriptie en montage gebeuren op het toestel. Je stem gaat nergens heen — niet naar ons, niet naar iemand anders. Geen accounts, geen analytics, geen advertenties.</p>
+<h3>Zorgvuldig met je opname</h3>
+<p>Het originele bestand wordt nooit gewijzigd. Elke knip is omkeerbaar, en de bewerkte versie wordt pas samengesteld bij afspelen of exporteren. Knips vallen op het stilste punt naast het woord, met korte fades, zodat lassen niet klikken.</p>
+<h3>Talen</h3>
+<p>Herkenning werkt in elke taal die je iPhone op het toestel kan transcriberen — meer dan vijftig, van Engels en Spaans tot Japans en Koreaans. ATCuter kiest de taal uit de talen die op je telefoon staan; je verandert hem in de instellingen of voor één opname.</p>
+<p>Vereist iOS 26. Herkenningsmodellen worden één keer gedownload en werken daarna offline.</p>
+</section>
+<section id="ja" lang="ja">
+<h2>音声をテキストとして編集</h2>
+<p>録音の編集はふつう、波形をにらんで単語の切れ目を推測する作業です。ATCuter はそれを逆転させます。話した内容を書き起こし、そのテキストを編集させてくれます。単語や文、間を削除すれば、音もいっしょに消えます。</p>
+<h3>使い方</h3>
+<ul>
+<li>声を録音するか、手持ちのファイルを読み込みます（M4A、MP3、WAV、CAF、AIFF、動画の音声トラック）。</li>
+<li>ATCuter が録音を書き起こし、一語ずつ音の正確な位置に結びつけます。</li>
+<li>単語をタップでその位置へ移動、長押しで削除、範囲を選べば文ごと切り取れます。</li>
+<li>削除した単語は取り消し線付きで画面に残り、いつでも戻せます。取り消しは200手前まで。</li>
+<li>ひと操作で整理。長い間を取り除いたり、口ぐせを探して外すものを確認したりできます。</li>
+<li>M4A または WAV で書き出し、好きな場所へ共有できます。</li>
+</ul>
+<h3>iPhone の外には何も出ません</h3>
+<p>書き起こしも編集も端末の中で行われます。あなたの声はどこにも送られません。開発者にも、ほかの誰にも。アカウントも解析も広告もありません。</p>
+<h3>録音は大切に扱います</h3>
+<p>元のファイルは一切変更されません。どの編集も取り消せて、編集後の音は再生や書き出しのときにだけ組み立てられます。切れ目は単語のそばのいちばん静かな位置に置かれ、短いフェードがかかるので、つなぎ目で音が鳴りません。</p>
+<h3>言語</h3>
+<p>認識は、お使いの iPhone が端末内で書き起こせるすべての言語で動きます。英語やスペイン語から日本語、韓国語まで50以上。ATCuter は端末に設定された言語から選びます。設定で、または録音ごとに変更できます。</p>
+<p>iOS 26 が必要です。認識モデルは一度だけダウンロードされ、その後はオフラインで動作します。</p>
+</section>
+<section id="zh-hans" lang="zh-Hans">
+<h2>像编辑文字一样编辑声音</h2>
+<p>剪辑录音通常意味着盯着波形，猜一个词在哪里结束。ATCuter 把这件事反了过来：它把你说的话写下来，让你编辑文字。删掉一个词、一句话或一段停顿，声音也随之消失。</p>
+<h3>怎么用</h3>
+<ul>
+<li>录下你的声音，或导入已有的文件（M4A、MP3、WAV、CAF、AIFF，或视频里的音轨）。</li>
+<li>ATCuter 转写录音，并把每个词绑定到它在声音里的准确时刻。</li>
+<li>点一个词跳到那里，长按删除它，选中一段就能剪掉整句话。</li>
+<li>删掉的词仍带删除线留在屏幕上，任何一个都能找回来。撤销可回溯 200 步。</li>
+<li>一步清理：去掉长停顿，或找出口头禅，确认哪些该走。</li>
+<li>导出为 M4A 或 WAV，随处分享。</li>
+</ul>
+<h3>什么都不会离开你的 iPhone</h3>
+<p>转写和剪辑都在设备上完成。你的声音不会被送到任何地方——不会给我们，也不会给别人。没有账号，没有分析，没有广告。</p>
+<h3>善待你的录音</h3>
+<p>原始文件从不被修改。每一刀都可以撤销，成品只在播放或导出时才被拼接出来。剪切点落在词旁最安静的位置，并配有短暂淡入淡出，所以接缝不会有咔哒声。</p>
+<h3>语言</h3>
+<p>识别支持你的 iPhone 能在设备上转写的所有语言——五十多种，从英语、西班牙语到日语、韩语。ATCuter 会从手机已设置的语言中选择；你可以在设置里更改，也可以只为某一条录音更改。</p>
+<p>需要 iOS 26。识别模型只下载一次，之后离线工作。</p>
+</section>
+<section id="ko" lang="ko">
+<h2>소리를 텍스트처럼 편집하세요</h2>
+<p>녹음 편집은 보통 파형을 노려보며 단어가 어디서 끝나는지 짐작하는 일입니다. ATCuter는 그 순서를 뒤집습니다. 말한 내용을 받아쓰고, 그 텍스트를 편집하게 해 줍니다. 단어나 문장, 멈춤을 지우면 소리도 함께 사라집니다.</p>
+<h3>사용 방법</h3>
+<ul>
+<li>목소리를 녹음하거나 가지고 있던 파일을 가져옵니다(M4A, MP3, WAV, CAF, AIFF, 동영상의 오디오 트랙).</li>
+<li>ATCuter가 녹음을 받아쓰고 각 단어를 소리 속 정확한 순간에 연결합니다.</li>
+<li>단어를 탭하면 그 지점으로 이동하고, 길게 누르면 지워지며, 범위를 선택하면 문장 전체를 잘라냅니다.</li>
+<li>지운 단어는 취소선이 그어진 채 화면에 남아 언제든 되돌릴 수 있습니다. 실행 취소는 200단계까지.</li>
+<li>한 번에 정리: 긴 멈춤을 없애거나, 군말을 찾아 어떤 것을 뺄지 확인합니다.</li>
+<li>M4A나 WAV로 내보내 어디든 공유하세요.</li>
+</ul>
+<h3>아무것도 iPhone 밖으로 나가지 않습니다</h3>
+<p>받아쓰기와 편집은 기기 안에서 이루어집니다. 목소리는 어디로도 전송되지 않습니다. 저희에게도, 다른 누구에게도. 계정도, 분석도, 광고도 없습니다.</p>
+<h3>녹음을 조심스럽게 다룹니다</h3>
+<p>원본 파일은 절대 바뀌지 않습니다. 모든 편집은 되돌릴 수 있고, 편집된 소리는 재생하거나 내보낼 때에만 조합됩니다. 자르는 지점은 단어 옆에서 가장 조용한 곳에 놓이고 짧은 페이드가 걸려, 이음새에서 딸깍 소리가 나지 않습니다.</p>
+<h3>언어</h3>
+<p>인식은 iPhone이 기기에서 받아쓸 수 있는 모든 언어에서 작동합니다. 영어와 스페인어부터 일본어와 한국어까지 쉰 가지가 넘습니다. ATCuter는 기기에 설정된 언어 중에서 고르며, 설정에서 또는 녹음 하나에 대해서만 바꿀 수 있습니다.</p>
+<p>iOS 26이 필요합니다. 인식 모델은 한 번만 내려받고 그 뒤에는 오프라인으로 작동합니다.</p>
+</section>
+</main>
+</body>
+</html>
